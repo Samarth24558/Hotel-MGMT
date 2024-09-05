@@ -9,15 +9,13 @@ function Room()
  
     
     const handleChange = (e) =>
-    {
-        debugger
+    {     
         const {name,value}= e.target;
         setInputValue(prevState=>({...prevState,[name]:value}));
     }
 
     const handleSubmit = (e) =>
     {
-        debugger
         e.preventDefault()
         console.log(value.firstname,value.lastname,value.phonenumber,value.email)
         setList(prevTable=>[...prevTable,value])
