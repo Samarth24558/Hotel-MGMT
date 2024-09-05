@@ -30,28 +30,28 @@ function Room()
         <form onSubmit={handleSubmit}>
         <div className="container">
         <label htmlFor="firstname">First Name</label>
-<input type="text" name="firstname" id="firstname"  onChange={handleChange} value={value.firstname} /><br />
+<input type="text" name="firstname" id="firstname"  onChange={handleChange} value={value.firstname} required /><br />
 
 <label htmlFor="lastname">Last Name</label>
-<input type="text" name="lastname" id="lastname"  onChange={handleChange} value={value.lastname} /><br />
+<input type="text" name="lastname" id="lastname"  onChange={handleChange} value={value.lastname} required /><br />
 
 <label htmlFor="phonenumber">Phone Number</label>
-<input type="text" name="phonenumber" id="phonenumber" onChange={handleChange} value={value.phonenumber} /><br />
+<input type="text" name="phonenumber" id="phonenumber" onChange={handleChange} value={value.phonenumber} required /><br />
 
 <label htmlFor="email">Email</label>
-<input type="text" name="email" id="email"  onChange={handleChange} value={value.email} /><br />
+<input type="text" name="email" id="email"  onChange={handleChange} value={value.email} required /><br />
 
 <label htmlFor="checkin">Check In</label>
-<input type="date" name="checkin" id="checkin"  onChange={handleChange} value={value.checkin} /><br />
+<input type="date" name="checkin" id="checkin"  onChange={handleChange} value={value.checkin} required /><br />
 
 <label htmlFor="checkout">Check Out</label>
-<input type="date" name="checkout" id="checkout"   onChange={handleChange} value={value.checkout} /><br />
+<input type="date" name="checkout" id="checkout"   onChange={handleChange} value={value.checkout} required /><br />
 
 <label htmlFor="ng">NG</label>
-<input type="number" name="ng" id="ng" onChange={handleChange} value={value.ng} /><br />
+<input type="number" name="ng" id="ng" onChange={handleChange} value={value.ng} required /><br />
 
 <label htmlFor="roomtypes">Room Type</label>
-<input type="text" name="roomtypes" id="roomtypes"  onChange={handleChange} value={value.roomtypes} /><br />
+<input type="text" name="roomtypes" id="roomtypes"  onChange={handleChange} value={value.roomtypes} required /><br />
 
             <button type="submit" className="button">SUBMIT</button>
         </div>
