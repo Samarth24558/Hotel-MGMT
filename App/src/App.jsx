@@ -1,5 +1,5 @@
 import './App.css'
-import Room from './Room'
+import EMP from './EMP.jsx'
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <Room></Room>
+    <EMP></EMP>
     </>
   )
 }
